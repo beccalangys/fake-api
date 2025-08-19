@@ -1,20 +1,45 @@
 {
-  "posts": [
+  "sundaes": [
     {
       "id": 1,
-      "title": "Post 1"
+      "name": "hot fudge sundae",
+      "base": "vanilla",
+      "topping-1": "hot fudge",
+      "topping-2": "whipped cream",
+      "topping-3": "cherry"
+
     },
     {
       "id": 2,
-      "title": "Post 2"
+      "name": "banana split",
+      "base": "vanilla",
+      "topping-1": "banana",
+      "topping-2": "chocolate syrup",
+      "topping-3": "cherry"
     },
     {
       "id": 3,
-      "title": "Post 3"
+      "name": "peanut butter cup sundae",
+      "base": "vanilla",
+      "topping-1": "peanut butter cups",
+      "topping-2": "hot fudge",
+      "topping-3": null
     },
     {
       "id": 4,
-      "title": "Becca is slaying"
+      "name": "oreo sundae",
+      "base": "vanilla",
+      "topping-1": "oreo cookies",
+      "topping-2": "hot fudge",
+      "topping-3": "oreo cookie crumbs"
+    },
+    {
+      "id": 5,
+      "name": "chocolate brownie sundae",
+      "base": "vanilla",
+      "topping-1": "oreo cookies",
+      "topping-2": "hot fudge",
+      "topping-3": "oreo cookie crumbs"
     }
   ],
   "comments": [
@@ -31,5 +56,24 @@
   ],
   "profile": {
     "name": "typicode"
-  }
+  },
+  "bases":[
+    {
+    "id": 1,
+    "base": "vanilla"
+    },
+    {
+    "id": 2,
+    "base": "chocolate"
+    },
+    {
+    "id": 3,
+    "base": "swirl"
+    },
+    {
+    "id": 4,
+    "base": "strawberry"
+    }
+  ]
+
 }
