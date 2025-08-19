@@ -4,10 +4,10 @@
       "id": 1,
       "name": "hot fudge sundae",
       "base": "vanilla",
-      "topping-1": "hot fudge",
-      "topping-2": "whipped cream",
-      "topping-3": "cherry"
-
+      "toppings": [
+        "hot fudge", 
+        "whipped cream",
+        "cherry"]
     },
     {
       "id": 2,
